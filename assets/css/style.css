@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+.principal {
+    width: 80%;
+    background-color: #E8EBE4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.principal__content__img{
+    width: 270px;
+    height: 270px;
+}
+
+.principal__text_title{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.principal__text_secundary{
+    font-size: 16px;
+    font-weight: 350;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.chat {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__icons{
+    margin-right: 30px;
+}
+
+.chat__box {
+    display: flex;
+    align-items: center;
+    border-style: none none solid none;
+    border-color: #bec1bb;
+    border-width: 1px;
+    height: 100px;
+    padding-left: 24px;
+}
+
+.chat__box_profile {
+    display: flex;
+    align-items: center;
+    border-style: none none solid none;
+    border-color: #bec1bb;
+    border-width: 1px;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.chat__profile {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    justify-content: space-around;
+}
+
+.chat__container_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__img_perfil {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.chat__text {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.chat__text_secundary{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+.chat__text_status{
+    margin: 0;
+    font-size: 10px;
+    color: #E8EBE4; 
+}
+
+.icon{
+    font-size: 16px;
+}
+
+.chat__container__button{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    border-style: none none solid none;
+    border-color: #bec1bb;
+    border-width: 1px;
+}
+
+.chat__button {
+    background-color: #a491d2;
+    color: white;
+    height: 40px;
+    width: 100px;
+
+}
+
+.chat__box_texts{
+    margin-left: 16px;
+}
+
